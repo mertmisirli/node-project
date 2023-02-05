@@ -72,16 +72,18 @@ app.get("/", (req,res,next) => {
         );
 });
 
-app.use((req,res,next) => {
+app.use((req,res,next) =>{
+    res.statusCode = 404
     res.send(
         `
         <html>
         <body>
-        <h1>Page Not Found</h1>
-        </body>
+        <h1> PAGE NOT FOUND </h1>
+        <p> Please Check Your Address</p>
+        <button style="color:red">Anasayfaya Dön</button> 
+        <body>
         </html>
-        `
-        );
+        `)
 });
 app.listen(process.env.PORT || 3000, () => {
     console.log('listening on port 3000');
