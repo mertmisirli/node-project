@@ -71,6 +71,18 @@ app.get("/", (req,res,next) => {
         `
         );
 });
+
+app.get((req,res,next) => {
+    res.send(
+        `
+        <html>
+        <body>
+        <h1>Page Not Found</h1>
+        </body>
+        </html>
+        `
+        );
+});
 app.listen(process.env.PORT || 3000, () => {
     console.log('listening on port 3000');
 });
