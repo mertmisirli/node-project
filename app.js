@@ -1,3 +1,15 @@
+
+
+<head>
+  <!-- Diğer etiketler -->
+  <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.2.1/dist/css/bootstrap.min.css" rel="stylesheet">
+  <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.2.1/dist/js/bootstrap.bundle.min.js"></script>
+  <link href="https://cdn.jsdelivr.net/npm/mdb-ui-kit@3.12.0/css/mdb.min.css" rel="stylesheet">
+  <script src="https://cdn.jsdelivr.net/npm/mdb-ui-kit@3.12.0/js/mdb.min.js"></script>
+</head>
+
+
+
 // Import the functions you need from the SDKs you need
 
 import { initializeApp } from "firebase/app";
